@@ -14,39 +14,47 @@
 <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="makerproject.css">
   </head>
-<div class="hero-image">
-  <div class="hero-text">
+<body class="full-height">  
+<div class="container-fluid head-container">
+  <div class="row hero-image">
+  <div class="col hero-text">
     <h1>Make It!</h1>
     <h2>You are an artist and I can't wait to see what this inspires!</h2>
-    <button onclick="newProject()">New project<br><p3>(click here)</p3></br></button>
+    <button class="newprojbtn" onclick="newProject()">New project<br><span>(click here)</span></br></button>
   </div>
+</div>
 </div>
 </head>
-</h4> 
-<div class="container-fluid mt-5">
+<div class="result-section">
+<div class="container-fluid results-contain mt-5">
   <div class="row">
     <div class="col">
-     <h3>Medium <button2 class="refreshbtn" onclick="GetMedium()">&#8635;</button2></h3>
-      <p2 id="mediummessage" ></p2>
+     <h3>Medium <button class="refreshbtn" onclick="GetMedium()">&#8635;</button></h3>
+      <p id="mediummessage" ></p>
     </div>
     <div class="col">
-     <h3>Topic <button2 class="refreshbtn" onclick="GetTopic()">&#8635;</button2></h3>
-      <p2 id="topicmessage" ></p2>
+     <h3>Topic <button class="refreshbtn" onclick="GetTopic()">&#8635;</button></h3>
+      <p id="topicmessage" ></p>
     </div>
     <div class="col">
-     <h3>Audience <button2 class="refreshbtn" onclick="GetAudience()">&#127921;</button2></h3>
-      <p2 id="audiencemessage" ></p2>
+     <h3>Audience <button class="refreshbtn" onclick="GetAudience()">&#127921;</button></h3>
+      <p id="audiencemessage" ></p>
     </div>
     <div class="col">
-      <h3>Time Limit <button2 class="refreshbtn" type="button" onclick="newTimeMsg();" >&#127921;</button2></h3>        
-      <p2 id="timemessage"></p2>
+      <h3>Time Limit <button class="refreshbtn" type="button" onclick="newTimeMsg();" >&#127921;</button></h3>        
+      <p id="timemessage"></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+    <div id='countdown2' class = 'countdown'></div>
+    <div id='countdowndt2' class = 'countdown'></div>
     </div>
   </div>
 </div>
 
-<div id='countdown2' class = 'countdown'></div>
-<div id='countdowndt2' class = 'countdown'></div>
 
+</div>
 </body>    
 </html> 
 </html>
