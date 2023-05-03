@@ -1,103 +1,13 @@
-html, body {
-font-family: 'Londrina Outline', cursive;
-height: 100%;
-margin: 0;
+body{
+    font-family:'Londrina Solid'!important;
 }
-h1{
-  /*font-size: 225px;*/
-  font-size:15vw;
-  }
-  h2{
-  /* font-size: 27px; */
-  font-size:3.5vw;
-  font-family: 'Londrina Solid', cursive;
-  }
-  p{
-  font-size: 2.8vw;
-  font-family: 'Londrina Solid', cursive;
-  }
-  span{
-  font-size: 1.6vw;
-  font-family: 'Londrina Solid', cursive;
-  }
-  h3{
-  /* font-size: 55px; */
-  font-size:4vw;
-  font-family: 'Londrina Solid', cursive;
-  }
-.full-height {
-  height: 100%;
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pexels-borries-bussche-6338573.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
 }
-.head-container{
-  height:58%;
-  position:relative;
-  text-align:center;
-}
-/* The hero image */
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pexels-borries-bussche-6338573.jpg");
-
-  /* Set a specific height */
-  height: 100%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.result-section{
-  position:relative;
-  margin-top:10px;
-  margin-bottom:10px;
-}
-/* Place text in the middle of the image */
-.hero-text {
-  color: white;
-  height: 100%;
-  position:absolute;
-}
-.newprojbtn{
-float:center;
-padding: 10;
-border-radius: 38px;
-border: 0;
-background: white;
-font-family: 'Londrina Solid', cursive;
-color: black;
-box-shadow: 2vw 2vw 2vw grey;
-font-size: 2.5vw;
-height: relative;
-width: relative;
-position:relative;
-max-height: 100;
-max-width: 400;
-}
-.refreshbtn{
-float:center;
-font-family: 'Londrina Solid', cursive;
-color: black;
-background:transparent;
-border:0;
-border-radius:100%;
-font-size:3vw;
-cursor:pointer;
-}
-.container-fluid mt-5{
-  margin-top:100px
-  padding:2%;
-}
-.countdown{
-  font-family: 'Londrina Solid';
-  color:slategray;
-  text-align:right;
-  font-size:5vw;
-  line-height:1;
-}
-#test{
-  font-family: 'Londrina Solid';
-  color:black;
-  text-align:right;
-  font-size:4vw;
+.logo{
+    font-family:'Londrina Outline';
+    font-size:20vh !important;
 }
